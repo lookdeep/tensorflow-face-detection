@@ -97,5 +97,5 @@ with detection_graph.as_default():
       out.write(image)
 
 
-    cap.release()
-    out.release()
+  cap.release()
+  out.release()
